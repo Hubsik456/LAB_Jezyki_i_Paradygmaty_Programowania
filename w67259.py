@@ -44,7 +44,7 @@ def Pomoc():
     """
         Wyświetla komunikat z informacją o programie
     """
-    MESSAGEBOX.showinfo("Pomoc", "Ten program umożliwia zamianę podanej liczby o podstawie z przedziału <2; 36> na inne podstawy z takiego samego przedziału.\n\nInput: Liczba która ma zostać zamieniona.\n\nSystem: Podstawa systemu liczbowego podanej liczby; <2; 36>\n\nDocelowe Systemy Liczbowe: Na jakie systemy liczbowe ma zostać zamieniona podana liczba. Można podać wiele wartości oddzielonych przecinkami. Każda liczba musi być z przedziału <2; 36>.")
+    MESSAGEBOX.showinfo("Pomoc", "Ten program umożliwia zamianę podanej liczby o podstawie z przedziału <2; 36> na inne podstawy z takiego samego przedziału.\n\nInput: Liczba która ma zostać zamieniona.\n\nPodstawa: Podstawa systemu liczbowego podanej liczby; <2; 36>\n\nDocelowe Systemy Liczbowe: Na jakie systemy liczbowe ma zostać zamieniona podana liczba. Można podać wiele wartości oddzielonych przecinkami. Każda liczba musi być z przedziału <2; 36>.")
 
 def Okno_Na_Wierzchu(Event = ""):
     """
